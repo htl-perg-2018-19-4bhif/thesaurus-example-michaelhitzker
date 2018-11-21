@@ -1,0 +1,24 @@
+{
+  "name": "thesaurus-example-michaelhitzker",
+  "version": "1.0.0",
+  "description": "Your job is to implement a command-line [Thesaurus](https://en.wikipedia.org/wiki/Thesaurus) tool in Node.js using TypeScript. Use the [openthesaurus.de](https://www.openthesaurus.de/) word database as the data source for your tool. You can download the database in text format [here](https://www.openthesaurus.de/export/OpenThesaurus-Textversion.zip).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc thesaurus.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htl-perg-2018-19-4bhif/thesaurus-example-michaelhitzker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htl-perg-2018-19-4bhif/thesaurus-example-michaelhitzker/issues"
+  },
+  "homepage": "https://github.com/htl-perg-2018-19-4bhif/thesaurus-example-michaelhitzker#readme",
+  "dependencies": {
+    "@types/node": "^10.12.9",
+    "csvtojson": "^2.0.8"
+  }
+}
