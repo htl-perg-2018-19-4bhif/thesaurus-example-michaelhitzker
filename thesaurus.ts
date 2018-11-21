@@ -44,7 +44,6 @@ function findMatches(words: Array<string>) {
 
 
     }).on('close', function () {
-        
         printMatches(matches);
     });
 }
